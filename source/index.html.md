@@ -24,7 +24,11 @@ The Reseller API allows you to directly sell products to customers using the go~
 
 See [detailed documentation on Reseller API](/reseller_api.html).
 
+# Start Times API
 
+The Start Times API allows you to directly access all online available bookings using the go~mus API.
+
+See [detailed documentation on Start Times API](/startTimes_api.html).
 
 
 
