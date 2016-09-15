@@ -188,6 +188,8 @@ and the specific attributes block, which is different for every type.
         "title": "El Siglo de Oro mit Gemäldegalerie regulär",
         "ticket_id": 247,
         "quantity": 1,
+        "start_time": "2016-09-14T15:00:00+02:00",
+        "time_slot": true,
         "location": {
             "name": "Gemäldegalerie",
             "city": "Berlin",
@@ -218,6 +220,8 @@ Each ticket type item contains attributes like
 - title (string), the title of the parent ticket
 - ticket_id (integer), the database parents ticket id
 - quantity (integer)
+- start_time (string), the starting time of the ticket
+- time_slot (boolean), whether the ticket is a time_slot ticket or not
 - after_sale_information (text), text containing information for the customer after sale
 
 plus two attribute blocks for the location and the barcodes.
